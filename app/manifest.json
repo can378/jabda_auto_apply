@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Jabda Auto Job Fill",
+  "version": "0.1.0",
+  "description": "채용 지원 폼 자동 채우기",
+
+  "action": {
+    "default_title": "Auto Job Fill",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",                 
+    "scripting",
+    "storage",
+    "clipboardWrite",
+    "windows"
+  ],
+  "host_permissions": ["<all_urls>"],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true,        
+      "match_about_blank": true  
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "data/profile.json",
+
+        "utils/autoFill1.js",
+        "utils/autoFill2.js", 
+        "utils/autoFill3.js",
+        
+        "utils/timer.js",
+        "utils/dom.js",
+        "utils/search.js",
+        "utils/loops.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

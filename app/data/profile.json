@@ -1,0 +1,352 @@
+{
+  "englishName": "Hong, Gil Dong",
+  "genderFlag": "F",
+  "birthday": "2025.10.12",
+
+  "hopeSalary": 40000000,
+  "latestSalary": 0,
+
+  "nationality": "KR",
+
+  "currentAddress": {
+    "zipCode": "12345",
+    "address": "경기도 00시 00구 00로 000",
+    "detailAddress": "312동 702호"
+  },
+  "parentAddress": {
+    "zipCode": "12345",
+    "address": "경기도 __시 __구 __로 ___",
+    "detailAddress": "312동 101호"
+  },
+  "residentAddress":{
+    "zipCode": "12345",
+    "address": "경기도 00시 00구 00로 000",
+    "detailAddress": "312동 101호"
+  },
+
+  "handicap": {
+    "handicapYn": "true",
+    "handicapGradeCode": "100",
+    "handicapContentsCode": "05"
+  },
+  "patriot": {
+    "patriotYn": "true",
+    "patriotNumber": "12345",
+    "relationship": "부",
+    "patriotRate": "5"
+  },
+
+  "military": {
+    "militaryTypeCode": "01",
+    "militaryBranchCode": "01",
+    "militaryRole": "보병",
+    "militaryPositionCode": "04",
+    "militaryStartDate": "2019.03",
+    "militaryEndDate": "2020.10",
+    "militaryDischargeCode": "01",
+    "dischargeReason": "사유 작성란"
+  },
+
+
+  "highschool": {
+    "graduationTypeCode": "01",           
+    "academyCode": "",
+    "academyName": "가곡고등학교",
+    "locationCode": "101",
+    "highschoolCategoryCode": "01",
+    "dayOrNight": "01",
+    "entranceDate": "2016.03",
+    "graduationDate": "2019.02"
+  },
+
+  "college": [
+    {
+      "degreeTypeCode": "50",
+      "academyCode": "",
+      "academyName": "가야대학교",
+      "locationCode": "101",
+      "headOrBranch": "01",
+      "entranceDate": "2020.03",
+      "graduationDate": "2025.02",
+      "entranceTypeCode": "01",
+      "graduationTypeCode": "01",
+      "collegeCategoryCode": "09",
+      "score": "3.5",
+      "perfectScore": "4.5",
+      "majorCredits": "72.0",
+      "majorAverageScore": "4.10",
+      "majorPerfectScore": "4.5",
+      "major": [
+        {
+          "majorName": "컴퓨터",
+          "majorCode": "",
+          "majorTypeCode": "01",
+          "majorCategoryCode": "103",
+          "dayOrNight": "01"
+        },
+        {
+          "majorName": "미디어",
+          "majorCode": "",
+          "majorTypeCode": "02",
+          "majorCategoryCode": "103",
+          "dayOrNight": "01"
+        }
+      ]
+    },
+    {
+      "degreeTypeCode": "40",
+      "academyCode": "",
+      "academyName": "가천대학교",
+      "locationCode": "101",
+      "headOrBranch": "01",
+      "entranceDate": "2019.03",
+      "graduationDate": "2023.02",
+      "entranceTypeCode": "01",
+      "graduationTypeCode": "01",
+      "collegeCategoryCode": "09",
+      "score": "4.0",
+      "perfectScore": "4.5",
+      "majorCredits": "72.0",
+      "majorAverageScore": "4.10",
+      "majorPerfectScore": "4.5",
+      "major": [
+        {
+          "majorName": "경영학",
+          "majorCode": "",
+          "majorTypeCode": "01",
+          "majorCategoryCode": "113",
+          "dayOrNight": "02"
+        },
+        {
+          "majorName": "경영학과 마케팅",
+          "majorCode": "",
+          "majorTypeCode": "03",
+          "majorCategoryCode": "103",
+          "dayOrNight": "01"
+        }
+      ]
+    }
+  ],
+
+  "graduateSchool": [
+    {
+      "degreeTypeCode": "62",
+      "academyCode": "",
+      "academyName": "가톨릭대",
+      "locationCode": "101",
+      "academicAdviser": "홍길동",
+      "lab": "○○ 연구실",
+      "entranceDate": "2023.03",
+      "graduationDate": "2025.08",
+      "graduationTypeCode": "02",
+      "collegeCategoryCode": "04",
+      "score": "4.30",
+      "perfectScore": "4.5",
+      "major": [
+        {
+          "majorName": "산업공학",
+          "majorCode": "",
+          "majorTypeCode": "01",
+          "majorCategoryCode": "119",
+          "dayOrNight": "01"
+        },
+        {
+          "majorName": "산업공학과 건축공학전공",
+          "majorCode": "",
+          "majorTypeCode": "02",
+          "majorCategoryCode": "119",
+          "dayOrNight": "01"
+        }
+      ]
+    },
+    {
+      "degreeTypeCode": "62",
+      "academyCode": "",
+      "academyName": "서울대",
+      "locationCode": "101",
+      "academicAdviser": "홍길동",
+      "lab": "00 연구실",
+      "entranceDate": "2023.03",
+      "graduationDate": "2025.08",
+      "graduationTypeCode": "02",
+      "collegeCategoryCode": "04",
+      "score": "4.10",
+      "perfectScore": "4.5",
+      "major": [
+        {
+          "majorName": "산업공학",
+          "majorCode": "",
+          "majorTypeCode": "01",
+          "majorCategoryCode": "119",
+          "dayOrNight": "01"
+        }
+      ]
+    }
+  ],
+
+  "paper": { "existYn": "false" },
+  "researchPaper": { "existYn": "false" },
+  "researchPresent": { "existYn": "false" },
+  "researchInvolve": { "existYn": "false" },
+
+  "career": [
+    {
+      "careerCriteriaCodeSn": "16163",
+      "company": "00주식회사",
+      "workingStatusCode": "LEAVE",
+      "entranceDate": "2025.03.04",
+      "leavingDate": "2024.12.31",
+      "department": "개발팀",
+      "position": "사원",
+      "assignedTask": "개발",
+      "salary":"10000",
+      "retirementReason": "계약만료"
+    },
+    {
+      "careerCriteriaCodeSn": "16163",
+      "company": "주식회사 알파",
+      "workingStatusCode": "LEAVE",
+      "entranceDate": "2023.03.01",
+      "leavingDate": "2024.12.31",
+      "department": "생산관리팀",
+      "position": "사원",
+      "assignedTask": "경비 및 출입관리",
+      "salary":"10000",
+      "retirementReason": "퇴사"
+    }
+  ],
+
+  "project": [
+    {
+      "projectName": "공장 출입통제 개선",
+      "clientName": "알파제조",
+      "workplace": "본사",
+      "startDate": "2024.01.01",
+      "endDate": "2024.06.30",
+      "contributionRate": 70,
+      "role": "현장 통제"
+    },
+    {
+      "projectName": "마케팅 자동화 시스템 구축",
+      "clientName": "00마케팅",
+      "workplace": "본사",
+      "startDate": "2024.01.01",
+      "endDate": "2024.06.30",
+      "contributionRate": 70,
+      "role": "시스템 개발"
+    }
+  ],
+  "extraExperience":"추가적인 활동을 작성합니다",
+  "languageExam": [
+    {
+      "languageExamName": "OPIc(영어)",
+      "detail": {
+        "registNumber": "OPI-ENG-123456",
+        "examDate": "2025.11.03",
+        "gradeCode": "101",
+        "score": ""
+      }
+    },
+    {
+      "languageExamName": "TOEIC Bridge",
+      "detail": {
+        "registNumber": "TOI-ENG-123456",
+        "examDate": "2025.11.03",
+        "gradeCode": "101",
+        "score": "895",
+        "perfectScore":"990"
+      }
+    }
+  ],
+  "languageSkill": [
+    {
+      "languageCode": "01",
+      "speakingLevelCodeSn": "16190",
+      "writingLevelCodeSn": "16190",
+      "readingLevelCodeSn": "16190"
+    },
+    {
+      "languageCode": "02",
+      "speakingLevelCodeSn": "16190",
+      "writingLevelCodeSn": "16190",
+      "readingLevelCodeSn": "16190"
+    }
+  ],
+
+  "license": [
+    {
+      "licenseName": "정보처리기사",
+      "licenseCode": "12345",
+      "organization": "한국산업인력공단",
+      "registNumber": "KPQ-2024-00001",
+      "acquireDate": "2025.06.15"
+    },
+    {
+      "licenseName": "컴퓨터활용능력1급",
+      "licenseCode": "12345",
+      "organization": "한국산업인력공단",
+      "registNumber": "KPQ-2024-00001",
+      "acquireDate": "2025.06.15"
+    }
+  ],
+  "award": [
+    {
+      "awardName": "모범사원상",
+      "organization": "OOO기관",
+      "awardDate": "2023.12.10",
+      "comment": "팀 프로젝트 성과로 수상"
+    },
+    {
+      "awardName": "최고의상",
+      "organization": "OOO기관",
+      "awardDate": "2023.12.10",
+      "comment": "성과로 수상"
+    },
+    {
+      "awardName": "우등상",
+      "organization": "OOO기관",
+      "awardDate": "2023.12.10",
+      "comment": "성과로 수상"
+    }
+  ],
+  "education": [
+    {
+      "educationName": "산업안전 기본교육",
+      "organization": "안전교육원",
+      "startDate": "2024.02.01",
+      "endDate": "2024.02.28",
+      "time": "20",
+      "comment": "현장 산업안전 및 비상대응"
+    },
+    {
+      "educationName": "산업안전 기본교육",
+      "organization": "안전교육원",
+      "startDate": "2024.02.01",
+      "endDate": "2024.02.28",
+      "time": "20",
+      "comment": "현장 산업안전 및 비상대응"
+    }
+  ],
+  "activity": [
+    {
+      "activityCategorySn": "16196",
+      "startDate": "2022.03.01",
+      "endDate": "2022.12.01",
+      "role": "팀장",
+      "contents": "동아리 프로젝트 리딩"
+    },
+    {
+      "activityCategorySn": "16196",
+      "startDate": "2022.03.01",
+      "endDate": "2022.12.01",
+      "role": "팀장",
+      "contents": "학과 캡스톤디자인 프로젝트 리딩"
+    }
+  ],
+
+  "etcBuilder": {
+    "textInput": "CCTV 모니터링, 출입통제 SW, Excel, PowerPoint, 한글, OA 전반"
+  }
+
+
+}
